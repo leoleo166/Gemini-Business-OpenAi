@@ -2,7 +2,7 @@
 
 **项目简介**
 - **说明**: 这是一个以 Node.js + Puppeteer 为基础的临时邮箱自动化工具，用于创建/管理临时邮箱并配合 Gemini/业务接口使用。
-
+代码会唤起带有 UI 界面的浏览器，因此请在图形化系统使用
 **前提条件**
 - **Node.js**: 推荐 Node.js 18+。在 Windows 下请使用 PowerShell (`pwsh.exe`) 或 CMD。
 - **依赖安装**: 项目使用 `puppeteer`（默认会下载 Chromium），以及 `axios`、`js-yaml` 等。
